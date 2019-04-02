@@ -1,0 +1,83 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <!-- inset boostrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- respinsive meta tag for mobile device support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta charset="utf-8">
+
+    <title>Unit Information</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body style="background-color: #a7a7a7">
+    <div class="container" style="background-color: aqua">
+        <h1 class="mb-3"> Sample Form </h1>
+        
+        <form>
+
+            <fieldset>
+                <legend>Unit Location</legend>
+
+                <div>
+                    <label for="branch">Branch : </label>
+                    <input type="text" id="branch" placeholder="Branch Name">
+                </div>
+
+                <div>
+                    <label for="building">Building : </label>
+                    <input type="text" id="building" placeholder="Buidling Name">
+                </div>
+
+                <div>
+                    <label for="floor">Floor : </label>
+                    <input type="text" id="floor" placeholder="Floor">
+                </div>
+
+                <div>
+                    <label for="room">Room # : </label>
+                    <input type="text" id="room" placeholder="Room Number">
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Data</legend>
+                
+                <div>
+                    <label for="notes">Notes : </label><br>
+                    <textarea placeholder="Please enter information to be submited with the above reference data." rows = "5" cols = "60" name = "notes" id="notes"></textarea><br>
+                    <input type="text" id="branch" placeholder="Branch Name">
+                </div>
+
+                <div class="mt-2">
+                    <button class="btn-success" type="reset" id="reset">Reset!</button>
+                    <button class="btn-danger" type="submit" id="submit">Submit!</button>
+                </div>
+
+
+            </fieldset>
+
+
+
+        </form>
+
+        <p class="mt-5">&copy; 2019 Proper Code</p>
+    </div> <!-- container end -->
+
+
+    <!-- end of body tag includes -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <script src="js/scripts.js"></script>
+</body>
+</html>
